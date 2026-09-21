@@ -1,0 +1,32 @@
+# Local-only thesis material and process history
+thesis/
+_historial_proceso/
+INFORME_organizacion.md
+
+# Large waveform data retained locally
+data/raw/waveforms/
+data/processed/dataset/waveforms.hdf5
+
+# Intermediate evaluation artifacts
+data/processed/eval_results/records_*.pkl
+data/processed/eval_results/_parts/
+data/processed/eval_results/_parts_orig/
+data/processed/eval_results/revision_manual/
+
+# Python and Jupyter runtime files
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments and editor settings
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# Operating-system and backup files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.bak
