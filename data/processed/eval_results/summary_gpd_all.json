@@ -1,0 +1,33 @@
+{
+  "tag": "gpd_all",
+  "arch": "GPD",
+  "auc": {
+    "baseline_P": 0.011806687227540332,
+    "fine-tuned_P": 0.7109261027428804,
+    "baseline_S": 0.05842898760371473,
+    "fine-tuned_S": 0.6208746154624415
+  },
+  "noise_fp": {
+    "baseline": {
+      "n": 7953,
+      "P": 7307,
+      "S": 1565,
+      "any": 7350
+    },
+    "fine-tuned": {
+      "n": 7953,
+      "P": 101,
+      "S": 109,
+      "any": 204
+    }
+  },
+  "config": {
+    "arch": "GPD",
+    "stations": null,
+    "THR": 0.3,
+    "TOL_S": 0.5,
+    "SIGMA": 20,
+    "in_samples": 3001,
+    "n_test": 15992
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "tag": "phasenet_all",
+  "arch": "PhaseNet",
+  "auc": {
+    "baseline_P": 0.8307231395669167,
+    "fine-tuned_P": 0.5598777967587709,
+    "baseline_S": 0.7812778479781387,
+    "fine-tuned_S": 0.8171642947850926
+  },
+  "noise_fp": {
+    "baseline": {
+      "n": 435,
+      "P": 66,
+      "S": 0,
+      "any": 66
+    },
+    "fine-tuned": {
+      "n": 435,
+      "P": 12,
+      "S": 0,
+      "any": 12
+    }
+  },
+  "config": {
+    "arch": "PhaseNet",
+    "stations": null,
+    "THR": 0.3,
+    "TOL_S": 0.5,
+    "SIGMA": 20,
+    "in_samples": 3001,
+    "n_test": 867
+  }
+}

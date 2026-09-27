@@ -1,0 +1,5 @@
+Architecture,Recall baseline,Recall fine-tuned,Recall improv. %,Precision baseline,Precision fine-tuned,Precision improv. %,F2 baseline,F2 fine-tuned,F2 improv. %,MAE (ms) baseline,MAE (ms) fine-tuned,MAE (ms) improv. %,Median abs. err. (ms) baseline,Median abs. err. (ms) fine-tuned,Median abs. err. (ms) improv. %,Bias (ms) baseline,Bias (ms) fine-tuned,Bias (ms) improv. %
+PhaseNet,0.993,0.997,0.3,0.768,0.96,25.1,0.938,0.989,5.4,37.9,29.4,22.6,30.0,20.0,33.3,-20.0,0.0,100.0
+EQTransformer,0.969,0.982,1.3,0.801,0.863,7.8,0.93,0.956,2.8,43.9,56.0,-27.5,30.0,40.0,-33.3,0.0,-10.0,
+EQCCT,0.259,0.986,281.1,0.425,0.862,103.0,0.281,0.958,241.5,36.2,52.6,-45.4,30.0,50.0,-66.7,20.0,-10.0,50.0
+GPD,0.997,0.994,-0.3,0.72,0.905,25.6,0.926,0.975,5.3,24.2,11.3,53.5,0.0,0.0,,0.0,0.0,

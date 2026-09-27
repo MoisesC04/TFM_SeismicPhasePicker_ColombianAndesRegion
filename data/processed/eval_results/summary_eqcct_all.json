@@ -1,0 +1,33 @@
+{
+  "tag": "eqcct_all",
+  "arch": "EQCCT",
+  "auc": {
+    "baseline_P": 0.17000100184459227,
+    "fine-tuned_P": 0.9342457448499024,
+    "baseline_S": 0.5585124518819962,
+    "fine-tuned_S": 0.8854747368869975
+  },
+  "noise_fp": {
+    "baseline": {
+      "n": 7953,
+      "P": 582,
+      "S": 6,
+      "any": 587
+    },
+    "fine-tuned": {
+      "n": 7953,
+      "P": 300,
+      "S": 5,
+      "any": 302
+    }
+  },
+  "config": {
+    "arch": "EQCCT",
+    "stations": null,
+    "THR": 0.3,
+    "TOL_S": 0.5,
+    "SIGMA": 20,
+    "in_samples": 6000,
+    "n_test": 15992
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "tag": "eqtransformer_all",
+  "arch": "EQTransformer",
+  "auc": {
+    "baseline_P": 0.9151637490005173,
+    "fine-tuned_P": 0.9119225775163213,
+    "baseline_S": 0.6015281459442895,
+    "fine-tuned_S": 0.7561491022045855
+  },
+  "noise_fp": {
+    "baseline": {
+      "n": 435,
+      "P": 35,
+      "S": 0,
+      "any": 35
+    },
+    "fine-tuned": {
+      "n": 435,
+      "P": 31,
+      "S": 0,
+      "any": 31
+    }
+  },
+  "config": {
+    "arch": "EQTransformer",
+    "stations": null,
+    "THR": 0.3,
+    "TOL_S": 0.5,
+    "SIGMA": 20,
+    "in_samples": 6000,
+    "n_test": 867
+  }
+}

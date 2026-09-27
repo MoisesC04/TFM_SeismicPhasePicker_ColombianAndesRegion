@@ -2,6 +2,7 @@
 thesis/
 _historial_proceso/
 INFORME_organizacion.md
+deliverables/version_history/
 
 # Large waveform data retained locally
 data/raw/waveforms/
